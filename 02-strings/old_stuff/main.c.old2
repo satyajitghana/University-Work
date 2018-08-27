@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "input_helper.h"
+#include "debug_helper.h"
+
+typedef char * String;
+
+int main(int argc, char **argv) {
+    String line;
+    while (get_line(&line) > 0) {
+        ds(line);
+    }
+    /*for (int i = 0 ; i < strlen(sentence) ; i++) {
+        if (strncmp((sentence+i), word, strlen(word)) == 0) {
+            printf("found at %d\n", i);
+        }
+    }*/
+}

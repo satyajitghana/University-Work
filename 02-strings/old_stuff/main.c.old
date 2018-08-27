@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
+
+#define ds(s) printf(#s " : %s\n", s);
+
+struct vector {
+    int size;
+    char* data;
+};
+
+char * name;
+int main(int argc, char **argv) {
+    char c;
+    name = *argv;
+    char *word;
+    int count = 0;
+    int index = 1;
+    while (--argc > 0 && ++argv) {
+        switch((c = **argv)) {
+            case 'w':
+                //ds(*argv);
+                word = *++argv;
+                argc--;
+                break;
+            case 's':
+                while (--argc >= 0) {
+                    //ds(*argv);
+                    if (strcmp(word, *argv) == 0) {
+                        count++;
+                    }
+                    ++argv;
+                }
+                printf("count : %d\n", count);
+                break;
+            default:
+                break;
+            printf("Invalid character %c\n", c);
+        }
+    }
+    //ds(word);
+    return 0;
+}
