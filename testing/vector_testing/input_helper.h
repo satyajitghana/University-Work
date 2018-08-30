@@ -7,4 +7,6 @@ int get_sentence(char**);
 
 int get_line(char** line);
 
+int next_int();
+
 #endif

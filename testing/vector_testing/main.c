@@ -23,7 +23,7 @@ void test_ints() {
 
     mylist.print(&mylist);
     printf("\nNow Sorted\n");
-    mylist.sort(&mylist, true);
+    mylist.sort(&mylist, false);
     mylist.print(&mylist);
 }
 

@@ -8,15 +8,12 @@ void array_sum(int *arr, int n);
 
 int main() {
     int *arr, n;
-    char* input;
     printf("\nEnter number of elements : ");
-    get_word(&input);
-    n = atoi(input);
+    n = next_int();
     arr = calloc(n, sizeof *arr);
     for (int i = 0 ; i < n ; i++) {
         printf("Enter element [%d] : ", i);
-        get_word(&input);
-        *(arr + i) = atoi(input);
+        *(arr + i) = next_int();
     }
     dai(arr, 0, n);
     find_max(arr, n);

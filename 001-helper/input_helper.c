@@ -14,6 +14,12 @@ int get_word(char** word) {
      * mann ki shaanti ke liye kar leta hun */
     *word = malloc((len+1) * sizeof **word);
 
+    /* Skip the whitespaces */
+    while((c=getchar()) == ' ')
+        ;
+    if (c != EOF)
+        ungetc(c, stdin);
+
     while ((c = getchar()) != ' ' && c != '\n' && c != EOF) {
         if (len == maxlen) {
             maxlen *= 2;
@@ -80,4 +86,13 @@ int get_line(char** line) {
     (*line)[len] = '\0';
 
     return len;
+}
+
+/* DataTypes input */
+int next_int() {
+    char *read;
+    get_word(&read);
+    int integer = atoi(read);
+    free(read);
+    return integer;
 }
