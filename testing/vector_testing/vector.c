@@ -3,12 +3,18 @@
 #include "vector.h"
 #include "debug_helper.h"
 
-void init(Vector *list, void (*print_util)(Vector*)) {
-    list -> length = 0;
-    list -> data = NULL;
-    list -> print = print_util;
-    list -> add = add;
-    list -> remove = del;
+void init(Vector *list,
+        void (*print_util)(Vector*),
+        int (*compare)(const void*, const void*),
+        int (*compare_r)(const void*, const void*)) {
+    list -> length  = 0;
+    list -> data    = NULL;
+    list -> print   = print_util;
+    list -> add     = add;
+    list -> remove  = del;
+    list -> comparator = compare;
+    list -> comparator_r = compare_r;
+    list -> sort = sort;
 }
 
 void add(Vector *list, void * DATA) {
@@ -24,6 +30,32 @@ void del(Vector *list, int index) {
     list -> length --;
     list -> data = realloc(list -> data, sizeof *(list -> data) * (list -> length));
 }
+
+void sort(Vector *list, bool descending) {
+    if (descending)
+        qsort(list -> data, list -> length,
+            sizeof *(list -> data),
+            list -> comparator_r);
+    else 
+        qsort(list -> data, list -> length,
+            sizeof *(list -> data),
+            list -> comparator);
+}
+
+/* Comparator Functions */
+int int_compare(const void * a1, const void * a2) {
+    // di(**((const int**)a1));
+    if (**((const int**) a1) > **((const int**) a2)) return 1;
+    if (**((const int**) a1) < **((const int**) a2)) return -1;
+    return 0;
+} 
+
+int int_compare_r(const void * a1, const void * a2) {
+    // di(**((const int**)a1));
+    if (**((const int**) a1) > **((const int**) a2)) return -1;
+    if (**((const int**) a1) < **((const int**) a2)) return 1;
+    return 0;
+} 
 
 /*Print Utils*/
 
