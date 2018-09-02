@@ -1,0 +1,12 @@
+╰─ ./string
+Enter the word to be searched : dog
+Enter the sentences : 
+cat and dog can never be friends
+found at : 8
+
+dog dog dog cat cat cat
+found at : 0
+found at : 4
+found at : 8
+
+

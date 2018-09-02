@@ -29,7 +29,7 @@ int main(int argc, char **argv) {
 void check_substring(Vector mylist, char* word) {
     for (int i = 0 ; i < mylist.length ; i++) {
         printf("line[%d] :\n", i);
-        char* curr_string = *mylist.data;
+        char* curr_string = *(mylist.data + i);
         for (int _i = 0 ; _i < strlen(curr_string) ; _i++) {
             if (strncmp(curr_string + _i, word, strlen(word)) == 0) {
                 printf("found at : %d\n", _i);

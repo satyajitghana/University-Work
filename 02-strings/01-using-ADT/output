@@ -1,0 +1,36 @@
+╰─ ./string
+Enter the word to be searched : aba
+Note: Blank line to end adding more lines
+Enter the sentences : 
+ababbbabaacfaba
+aaaabcbccbababcabbababa
+ababaacaba
+line[0] :
+found at : 0
+found at : 6
+found at : 12
+
+line[1] :
+found at : 10
+found at : 18
+found at : 20
+
+line[2] :
+found at : 0
+found at : 2
+found at : 7
+
+╰─ ./string
+Enter the word to be searched : aba
+Note: Blank line to end adding more lines
+Enter the sentences : 
+abababababababa
+line[0] :
+found at : 0
+found at : 2
+found at : 4
+found at : 6
+found at : 8
+found at : 10
+found at : 12
+
