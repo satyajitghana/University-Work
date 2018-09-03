@@ -17,6 +17,8 @@ void push(Stack* mystack, void* data) {
         return;
     }
 
+    /* This code sucks, you know it and i know it.
+     * Move on and call me an idiot later */
     mystack -> data = realloc(mystack -> data, (mystack -> top + 2) * sizeof *(mystack -> data));    
     if (mystack -> data != NULL) {
         (mystack -> data)[(++mystack -> top)] = data;
