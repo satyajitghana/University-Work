@@ -1,0 +1,41 @@
+.root {
+    -fx-font-family: "Courier New";    
+}
+
+#button {
+    -fx-font-weight: bold;
+}
+
+#label {
+    -fx-font-weight: bold;
+}
+
+.num {
+    -fx-padding: 10px;
+    -fx-border-insets: 20px;
+    -fx-background-insets: 20px;
+    -fx-font-size: 20px !important;
+    -fx-font-weight: bold;
+}
+
+.num:hover {
+    -fx-background-color: #ffffff;
+}
+
+
+#heading {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
+
+#result {
+    -fx-font-size: 40px;
+    -fx-padding: 10px;
+    -fx-border-color: #000;
+}
+
+#history {
+    -fx-font-size: 20px;
+    -fx-font-color: red;
+}
+
