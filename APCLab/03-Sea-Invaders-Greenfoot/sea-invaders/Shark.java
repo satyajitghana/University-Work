@@ -29,12 +29,18 @@ public class Shark extends Player {
         if (toEat != null) {
             getWorld().removeObject(toEat);
             Score currWorldScore = ((SeaWorld)getWorld()).getWorldScore();
+            // Increase the score
             currWorldScore.setScore(currWorldScore.getScore()+((Food)toEat).getFoodPoints());
-            getWorld().addObject(new ClownFish(),Greenfoot.getRandomNumber(getWorld().getWidth()), Greenfoot.getRandomNumber(getWorld().getHeight()));
+            currWorldScore.incrementFishEaten();
+            Food toAdd = null;
+            if (toEat instanceof ClownFish)
+                toAdd = new ClownFish();
+            if (toEat instanceof PufferFish)
+                toAdd = new PufferFish();
             
-            if (currWorldScore.getScore()%100 == 0) {
-                currWorldScore.updateDifficulty();
-            }
+            getWorld().addObject(toAdd,Greenfoot.getRandomNumber(getWorld().getWidth()), Greenfoot.getRandomNumber(getWorld().getHeight()));
+            
+            currWorldScore.updateDifficulty();
         }
     }
 }

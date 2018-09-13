@@ -6,6 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
+
 public class SeaActors extends Actor{  
     public void checkBounds() {
         if (getX()+getImage().getHeight()/2 >= getWorld().getWidth())

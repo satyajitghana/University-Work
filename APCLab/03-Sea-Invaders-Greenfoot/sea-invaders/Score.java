@@ -12,10 +12,17 @@ public class Score extends Actor {
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-    Integer score = 0;  
+    Integer score = 0;
+    Integer fishEaten = 0;
+    
+    public Score() {
+        score = 0;
+        fishEaten = 0;
+        Enemy.speed = 1.0f;
+    }
     
     public void act() {
-        setImage(new GreenfootImage("Score : " + score, 30, Color.WHITE, null));
+        setImage(new GreenfootImage("Score : " + score+" Fishes Eaten : "+fishEaten+" Difficulty : " + String.format("%.2f", Enemy.speed) + "X", 30, Color.WHITE, null));
     }
     
     public Integer getScore() {
@@ -27,6 +34,15 @@ public class Score extends Actor {
     }
     
     public void updateDifficulty() {
-        Enemy.speed *= 1.2f;
+        if (fishEaten % 5 == 0)
+            Enemy.speed *= 1.2f;
+    }
+    
+    public void incrementFishEaten() {
+        fishEaten++;
+    }
+    
+    public Integer getFishEaten() {
+        return fishEaten;
     }
 }

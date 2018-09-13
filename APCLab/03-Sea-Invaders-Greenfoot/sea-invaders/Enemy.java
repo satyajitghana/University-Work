@@ -6,14 +6,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Enemy extends SeaActors
-{
-    /**
-     * Act - do whatever the Enemy wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    
-    public static Float speed = 2.0f;
+
+public class Enemy extends SeaActors {
+    public static Float speed = 1.0f;
       
     public void _move() {
         move(speed.intValue());

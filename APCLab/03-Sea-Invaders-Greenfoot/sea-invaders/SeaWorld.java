@@ -15,14 +15,17 @@ public class SeaWorld extends World
      * 
      */
     
-    private Score score = new Score();
+    private Score score;
     
     public SeaWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1280, 720, 1);
         
-        addObject(score, getWidth()/2, 30);
+        // Reset the score on new World
+        score = new Score();
+        // Score
+        addObject(score, getWidth()/2-30, 30);
         
         // Player
         Shark player = new Shark();
@@ -50,6 +53,7 @@ public class SeaWorld extends World
     }
     
     public void gameOver() {
+        getObjects(SeaActors.class).forEach(actor -> removeObject(actor));
         getBackground().drawImage(new GreenfootImage("GAME OVER Your Score: " + score.getScore(), 50, Color.WHITE, null), getWidth()/2-300, getHeight()/2);
         Greenfoot.stop();
     }
