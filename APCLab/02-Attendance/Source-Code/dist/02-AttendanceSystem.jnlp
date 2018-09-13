@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="02-AttendanceSystem.jnlp">
+  <information>
+    <title>02-AttendanceSystem</title>
+    <vendor>shadowleaf</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="02-AttendanceSystem.jar" size="4818" download="eager" />
+    <jar href="lib\jmetro-4.4.jar" size="63685" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="02-AttendanceSystem" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="in.ac.msruas.apclab.cse159.AttendanceSystem"  name="02-AttendanceSystem" />
+  <update check="always"/>
+</jnlp>
