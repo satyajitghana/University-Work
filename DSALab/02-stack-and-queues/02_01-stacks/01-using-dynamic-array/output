@@ -1,0 +1,36 @@
+--- STACKS USING DYNAMIC ALLOCATIONS ---
+1.	Push
+2.	Pop
+3.	Display
+4.	Exit
+
+Enter your choice : 1
+Satyajit Ghana
+--- STACKS USING DYNAMIC ALLOCATIONS ---
+1.	Push
+2.	Pop
+3.	Display
+4.	Exit
+
+Enter your choice : 3
+
+DEBUG--#i : 0#
+
+DEBUG--**(char**)(mystack->data + i) : Satyajit Ghana*
+--- STACKS USING DYNAMIC ALLOCATIONS ---
+1.	Push
+2.	Pop
+3.	Display
+4.	Exit
+
+Enter your choice : 2
+removed
+DEBUG--*(char*)(mystack->data)[(mystack -> top)+1] : Satyajit Ghana*
+--- STACKS USING DYNAMIC ALLOCATIONS ---
+1.	Push
+2.	Pop
+3.	Display
+4.	Exit
+
+Enter your choice : 4
+

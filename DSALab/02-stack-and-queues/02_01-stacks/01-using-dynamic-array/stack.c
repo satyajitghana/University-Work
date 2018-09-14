@@ -33,18 +33,18 @@ void push(Stack* mystack, void* data) {
 }
 
 void pop(Stack* mystack) {
-    if (mystack -> top -1 < 0) {
+    if (mystack -> top < 0) {
         printf("\n*Stack Underflow detected !*\n");
         return;
     }
 
     mystack -> top--;
     /* Resize the data array as the elements are removed */
-    mystack -> data = realloc(mystack -> data, (mystack -> top + 1) * sizeof *(mystack-> data));
+    mystack -> data = realloc(mystack -> data, (mystack -> top + 2) * sizeof *(mystack-> data));
 
     /* Print the removed data */
     printf("removed");
-    ds((char*)(mystack->data)[mystack -> top+1]);
+    ds((char*)(mystack->data)[(mystack -> top)+1]);
 }
 
 void display(Stack* mystack) {
