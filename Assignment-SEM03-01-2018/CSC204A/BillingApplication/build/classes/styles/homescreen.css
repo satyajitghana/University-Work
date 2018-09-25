@@ -1,0 +1,33 @@
+#AnchorPane {
+    -fx-background-color: linear-gradient(to top right, rgba(34, 47, 62,1.0) 45%, rgba(34, 47, 62,0.7) 100%) !important;
+}
+
+#manageBillsButton {
+    -fx-background-radius: 5em;
+    -fx-background-color: rgba(22, 160, 133, 0.9) !important;
+    -fx-font-size: 30px;
+}
+
+#manageBillButton> .text {
+    -fx-font-weight: bold;
+}
+
+#manageBillsButton:hover {
+    -fx-background-color: rgba(22, 160, 133, 1) !important;
+}
+
+#generateBillsButton {
+    -fx-background-radius: 5em;
+    -fx-background-color: rgba(241, 196, 15, 0.9) !important;
+    -fx-font-size: 30px;
+}
+
+#generateBillsButton:hover {
+    -fx-background-color: rgba(241, 196, 15, 1) !important;
+}
+
+.welcome-text {
+    -fx-font-weight: bold;
+    -fx-font-size: 8em;
+    -fx-fill: rgba(238, 82, 83,1.0);
+}

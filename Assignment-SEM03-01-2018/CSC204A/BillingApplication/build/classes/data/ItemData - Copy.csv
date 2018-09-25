@@ -1,0 +1,9 @@
+productNumber,productName,manufacturerName,MRP,discount,Expiry
+98,Tomatoes,ACME,22,2,2019-09-22
+231,Bulb,ACME,120,10,
+12,Potatoes,ACME,12,5,
+23,Corn,ACME,5,5,
+20,Chips,ACME,10,2,
+11,Silk,Cadbury,75,50,
+21,Carrot,ACME,20,2,
+24,Cucumber,ACME,5,1,

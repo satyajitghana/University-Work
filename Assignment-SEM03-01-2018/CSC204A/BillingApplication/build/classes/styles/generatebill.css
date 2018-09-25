@@ -1,0 +1,112 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.root {
+    -fx-font-family: "Verdana";
+}
+
+.mainFxmlClass {
+    
+}
+
+#items-available .column-header .label{
+    -fx-padding: 0.3em;
+}
+
+#bill-list .column-header .label{
+    -fx-padding: 0.3em;
+}
+
+#items-available .table-cell {
+    -fx-padding: 0.3em;
+}
+
+#bill-list .table-cell {
+    -fx-padding: 0.3em;
+}
+
+#items-available .table-row-cell:filled:hover {
+    -fx-background-color: #d5e1f2;
+    -fx-fill: #000;
+}
+
+#items-available .table-row-cell:filled:hover .text {
+    -fx-fill: #000;
+}
+
+#items-available .table-cell:filled:hover {
+    -fx-background-color: none ;
+}
+
+#bill-list .table-cell .button {
+    -fx-padding: 0 8;
+    -fx-border-insets: 0;
+    -fx-background-color: #f53b57;
+}
+
+#bill-list .table-row-cell:filled:hover {
+    -fx-background-color: #d5e1f2;
+    -fx-fill: #000;
+}
+
+#bill-list .table-row-cell:filled:hover .text {
+    -fx-fill: #000;
+}
+
+#bill-list .table-cell:filled:hover {
+    -fx-background-color: none ;
+}
+
+#bill-list {
+    -fx-background-radius: 2em;
+    -fx-background-color: transparent;
+}
+
+#bill-total {
+    -fx-alignment: CENTER;
+    -fx-background-radius: 1em;
+    -fx-background-color: rgba(96, 125, 139, 0.7);
+    -fx-padding: 35px;
+}
+
+#bill-total * {
+    -fx-border-insets: 10px;
+    -fx-background-insets: 10px;
+    -fx-padding:5px;
+}
+
+#bill-total .label {
+    -fx-font-size: 2em;
+}
+
+.action-buttons {
+    -fx-font-family: Verdana !important;
+    -fx-background-radius: 3em !important;
+    -fx-background-color: linear-gradient(to top right, rgba(231,76,60, 0.8) 0%, rgba(231,76,60, 1) 100%) !important;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#131313 0%, #424141 100%) !important;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+}
+
+.table-row-cell:even {
+    -fx-background-color: rgba(120, 224, 143, 0.1);
+}
+
+.table-row-cell:odd {
+    -fx-background-color: rgba(56, 173, 169, 0.1);
+}

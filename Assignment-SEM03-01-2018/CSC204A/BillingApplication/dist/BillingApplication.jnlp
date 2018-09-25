@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BillingApplication.jnlp">
+  <information>
+    <title>BillingApplication</title>
+    <vendor>shadowleaf</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="BillingApplication.jar" size="1193356" download="eager" />
+    <jar href="lib\barcodes-7.1.3-javadoc.jar" size="193016" download="eager" />
+    <jar href="lib\barcodes-7.1.3-sources.jar" size="148847" download="eager" />
+    <jar href="lib\barcodes-7.1.3.jar" size="150343" download="eager" />
+    <jar href="lib\commons-beanutils-1.7.0.jar" size="188671" download="eager" />
+    <jar href="lib\commons-beanutils-1.9.3.jar" size="246174" download="eager" />
+    <jar href="lib\commons-cli-1.0.jar" size="30117" download="eager" />
+    <jar href="lib\commons-io-2.2.jar" size="173587" download="eager" />
+    <jar href="lib\commons-lang-2.6.jar" size="284220" download="eager" />
+    <jar href="lib\commons-lang3-3.7.jar" size="499634" download="eager" />
+    <jar href="lib\font-asian-7.1.3.jar" size="2166108" download="eager" />
+    <jar href="lib\forms-7.1.3-javadoc.jar" size="172342" download="eager" />
+    <jar href="lib\forms-7.1.3-sources.jar" size="71422" download="eager" />
+    <jar href="lib\forms-7.1.3.jar" size="77419" download="eager" />
+    <jar href="lib\hyph-7.1.3.jar" size="982942" download="eager" />
+    <jar href="lib\io-7.1.3-javadoc.jar" size="1247778" download="eager" />
+    <jar href="lib\io-7.1.3-sources.jar" size="608166" download="eager" />
+    <jar href="lib\io-7.1.3.jar" size="805505" download="eager" />
+    <jar href="lib\jmetro-4.4.jar" size="63685" download="eager" />
+    <jar href="lib\kernel-7.1.3-javadoc.jar" size="338" download="eager" />
+    <jar href="lib\kernel-7.1.3-sources.jar" size="1199367" download="eager" />
+    <jar href="lib\kernel-7.1.3.jar" size="1148277" download="eager" />
+    <jar href="lib\layout-7.1.3-javadoc.jar" size="338" download="eager" />
+    <jar href="lib\layout-7.1.3-sources.jar" size="446691" download="eager" />
+    <jar href="lib\layout-7.1.3.jar" size="435619" download="eager" />
+    <jar href="lib\opencsv-4.2.jar" size="155840" download="eager" />
+    <jar href="lib\pdfa-7.1.3-javadoc.jar" size="110064" download="eager" />
+    <jar href="lib\pdfa-7.1.3-sources.jar" size="39921" download="eager" />
+    <jar href="lib\pdfa-7.1.3.jar" size="46939" download="eager" />
+    <jar href="lib\pdftest-7.1.3-javadoc.jar" size="107758" download="eager" />
+    <jar href="lib\pdftest-7.1.3-sources.jar" size="33490" download="eager" />
+    <jar href="lib\pdftest-7.1.3.jar" size="23329" download="eager" />
+    <jar href="lib\sign-7.1.3-javadoc.jar" size="312750" download="eager" />
+    <jar href="lib\sign-7.1.3-sources.jar" size="123607" download="eager" />
+    <jar href="lib\sign-7.1.3.jar" size="123046" download="eager" />
+    <jar href="lib\slf4j-api-1.7.25-sources.jar" size="55539" download="eager" />
+    <jar href="lib\slf4j-api-1.7.25.jar" size="41203" download="eager" />
+    <jar href="lib\slf4j-simple-1.7.25-sources.jar" size="13815" download="eager" />
+    <jar href="lib\slf4j-simple-1.7.25.jar" size="15257" download="eager" />
+    <jar href="lib\styled-xml-parser-7.1.3-javadoc.jar" size="1306736" download="eager" />
+    <jar href="lib\styled-xml-parser-7.1.3-sources.jar" size="453793" download="eager" />
+    <jar href="lib\styled-xml-parser-7.1.3.jar" size="490299" download="eager" />
+    <jar href="lib\svg-7.1.3-javadoc.jar" size="436812" download="eager" />
+    <jar href="lib\svg-7.1.3-sources.jar" size="123816" download="eager" />
+    <jar href="lib\svg-7.1.3.jar" size="97170" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="BillingApplication" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="com.debug.satyajit.billingsystem.BillingApplication"  name="BillingApplication" />
+  <update check="always"/>
+</jnlp>

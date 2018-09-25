@@ -1,0 +1,11 @@
+\documentclass{standalone}
+\usepackage{./karnaugh-map}
+\begin{document}
+  \begin{karnaugh-map}[4][4][1][$CT$][$SH$]
+    \minterms{6,8,9,10,12}
+    \maxterms{0,1,2,3,4,5}
+    \autoterms[X]
+    \implicant{12}{10}
+    \implicant{7}{10}
+  \end{karnaugh-map}
+\end{document}

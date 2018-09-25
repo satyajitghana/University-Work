@@ -1,0 +1,11 @@
+*.aux
+*.glo
+*.idx
+*.log
+*.out
+*.pdf
+!test/expected/karnaugh-*.pdf
+*.sty
+*.toc
+test/actual
+test/result

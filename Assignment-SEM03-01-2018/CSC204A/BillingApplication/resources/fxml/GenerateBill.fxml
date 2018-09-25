@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #08AEEA; -fx-background-color: linear-gradient(to top right, #16a085 25%, #3498db 100%);" styleClass="mainFxmlClass" stylesheets="@../styles/generatebill.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.debug.satyajit.billingsystem.controllers.GenerateBillController">
+   <children>
+      <Button layoutX="961.0" layoutY="624.0" mnemonicParsing="false" onAction="#generateBill" prefHeight="60.0" prefWidth="127.0" styleClass="action-buttons" text="Done" />
+      <Label layoutX="378.0" layoutY="32.0" text="Search your Item" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="search" layoutX="378.0" layoutY="72.0" onKeyReleased="#search" prefHeight="35.0" prefWidth="341.0" promptText="Item Name / Item Number" />
+      <TableView id="bill-list" fx:id="billListTable" layoutX="23.0" layoutY="170.0" prefHeight="484.0" prefWidth="696.0">
+        <columns>
+            <TableColumn fx:id="bl_no" prefWidth="43.0" text="No." />
+          <TableColumn fx:id="bl_description" prefWidth="310.0" text="Description" />
+          <TableColumn fx:id="bl_netprice" prefWidth="79.0" text="Net Price" />
+            <TableColumn fx:id="bl_qty" prefWidth="72.0" text="Qty" />
+            <TableColumn fx:id="bl_value" prefWidth="76.0" text="Value" />
+            <TableColumn fx:id="bl_savings" prefWidth="64.0" text="Savings" />
+            <TableColumn fx:id="bl_del" prefWidth="52.0" text="Del" />
+        </columns>
+      </TableView>
+      <TableView id="items-available" fx:id="itemsAvailableTable" layoutX="754.0" layoutY="69.0" onMouseClicked="#addList" prefHeight="276.0" prefWidth="504.0">
+        <columns>
+          <TableColumn fx:id="ano" prefWidth="41.0" text="No." />
+          <TableColumn fx:id="aproduct" minWidth="0.0" prefWidth="135.0" text="Product" />
+            <TableColumn fx:id="aperishable" prefWidth="81.0" style="-fx-alignment: CENTER;" text="Perishable" />
+            <TableColumn fx:id="amanufacturer" prefWidth="110.0" text="Manufacturer" />
+            <TableColumn fx:id="amrp" prefWidth="63.0" text="MRP" />
+            <TableColumn fx:id="adiscount" minWidth="1.0" prefWidth="74.0" text="Discount" />
+        </columns>
+      </TableView>
+      <Label layoutX="754.0" layoutY="29.0" text="Items Available" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="129.0" text="Bill List" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="homeButton" layoutX="1120.0" layoutY="624.0" mnemonicParsing="false" onAction="#goToHome" prefHeight="60.0" prefWidth="127.0" styleClass="action-buttons" text="Home" />
+      <Button layoutX="802.0" layoutY="624.0" mnemonicParsing="false" onAction="#clearBillList" prefHeight="60.0" prefWidth="127.0" styleClass="action-buttons" text="Clear All" />
+      <VBox id="bill-total" layoutX="760.0" layoutY="373.0" prefHeight="200.0" prefWidth="492.0">
+         <children>
+            <HBox>
+               <children>
+                  <Label prefHeight="17.0" prefWidth="284.0" text="Grand Total" />
+                  <Label fx:id="grandTotal" prefHeight="17.0" prefWidth="314.0" text="32" />
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label prefHeight="17.0" prefWidth="284.0" text="Total Savings" />
+                  <Label fx:id="totalSavings" prefHeight="17.0" prefWidth="314.0" text="22" />
+               </children>
+            </HBox>
+            <HBox>
+               <children>
+                  <Label prefHeight="17.0" prefWidth="284.0" text="Total Items" />
+                  <Label fx:id="totalItems" prefHeight="17.0" prefWidth="314.0" text="12" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Label layoutX="23.0" layoutY="32.0" text="Customer Name" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cust_name" layoutX="23.0" layoutY="72.0" onKeyReleased="#search" prefHeight="35.0" prefWidth="341.0" promptText="Enter Customer Name" />
+   </children>
+</AnchorPane>

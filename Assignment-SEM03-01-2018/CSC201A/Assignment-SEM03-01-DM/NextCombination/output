@@ -1,0 +1,34 @@
+----------- n-Combination-r Generator ---------------------------------------
+
+Enter the data elements : 
+GAACTG	
+CGCGTT
+AGATCC
+CTCCCC
+AGAATG
+AGTGTC
+
+Data in the Set : 
+AGAATG AGATCC AGTGTC CGCGTT CTCCCC GAACTG 
+Enter the value of r : 3
+ {AGAATG}  {AGATCC}  {AGTGTC} 
+ {AGAATG}  {AGATCC}  {CGCGTT} 
+ {AGAATG}  {AGATCC}  {CTCCCC} 
+ {AGAATG}  {AGATCC}  {GAACTG} 
+ {AGAATG}  {AGTGTC}  {CGCGTT} 
+ {AGAATG}  {AGTGTC}  {CTCCCC} 
+ {AGAATG}  {AGTGTC}  {GAACTG} 
+ {AGAATG}  {CGCGTT}  {CTCCCC} 
+ {AGAATG}  {CGCGTT}  {GAACTG} 
+ {AGAATG}  {CTCCCC}  {GAACTG} 
+ {AGATCC}  {AGTGTC}  {CGCGTT} 
+ {AGATCC}  {AGTGTC}  {CTCCCC} 
+ {AGATCC}  {AGTGTC}  {GAACTG} 
+ {AGATCC}  {CGCGTT}  {CTCCCC} 
+ {AGATCC}  {CGCGTT}  {GAACTG} 
+ {AGATCC}  {CTCCCC}  {GAACTG} 
+ {AGTGTC}  {CGCGTT}  {CTCCCC} 
+ {AGTGTC}  {CGCGTT}  {GAACTG} 
+ {AGTGTC}  {CTCCCC}  {GAACTG} 
+ {CGCGTT}  {CTCCCC}  {GAACTG} 
+

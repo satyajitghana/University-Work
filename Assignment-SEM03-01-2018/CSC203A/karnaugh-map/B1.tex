@@ -1,0 +1,12 @@
+\documentclass{standalone}
+\usepackage{./karnaugh-map}
+\begin{document}
+  \begin{karnaugh-map}[4][4][1][$CT$][$SH$]
+    \minterms{6,8,9,10,12}
+    \autoterms[0]
+    \implicant{6}{6}
+    \implicant{12}{8}
+    \implicantedge{8}{8}{10}{10}
+    \implicant{8}{9}
+  \end{karnaugh-map}
+\end{document}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: rgba(44,58,71, 0.7); -fx-font-family: Courier New;" stylesheets="@../styles/homescreen.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.debug.satyajit.billingsystem.controllers.HomeScreenController">
+   <children>
+      <Button id="manageBillsButton" layoutX="287.0" layoutY="478.0" mnemonicParsing="false" onAction="#goToManageInventory" prefHeight="133.0" prefWidth="341.0" text="Manage Inventory" />
+      <Button id="generateBillsButton" layoutX="693.0" layoutY="478.0" mnemonicParsing="false" onAction="#goToGenerateBill" prefHeight="133.0" prefWidth="325.0" text="Generate Bill" />
+      <Text layoutX="243.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="welcome-text" text="Welcome To" wrappingWidth="669.576171875" />
+      <Text layoutX="243.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="welcome-text" text="ACME Buy N Save" wrappingWidth="847.576171875" />
+      <ImageView fitHeight="160.0" fitWidth="160.0" layoutX="883.0" layoutY="73.0">
+         <image>
+            <Image url="@../images/groceries.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="42.0" layoutY="84.0">
+         <image>
+            <Image url="@../images/salad.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="142.0" layoutY="158.0">
+         <image>
+            <Image url="@../images/tomato.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="62.0" layoutY="214.0">
+         <image>
+            <Image url="@../images/lemon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="185.0" layoutY="444.0">
+         <image>
+            <Image url="@../images/strawberry.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="1131.0" layoutY="395.0">
+         <image>
+            <Image url="@../images/chocolate.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="1151.0" layoutY="502.0">
+         <image>
+            <Image url="@../images/milk.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="102.0" layoutY="536.0">
+         <image>
+            <Image url="@../images/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="47.0" layoutY="409.0">
+         <image>
+            <Image url="@../images/grapes.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="1086.0" layoutY="477.0">
+         <image>
+            <Image url="@../images/cheese.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="1071.0" layoutY="544.0">
+         <image>
+            <Image url="@../images/fish.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="400.0" fitWidth="200.0" layoutX="1051.0" layoutY="60.0" preserveRatio="true">
+         <image>
+            <Image url="@../images/Bugs_Bunny.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="871.0" layoutY="691.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 2em;" text="ProjektRedOsmium-Biller V0.1 Alpha" />
+      <Text fill="WHITE" layoutX="22.0" layoutY="691.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 2em;" text="shadowleaf (satyajit_ghana)" />
+   </children>
+</AnchorPane>
