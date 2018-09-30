@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/University-Work/02-DSALab/04-infix-postfix/debug_helper.h
+
+/cygdrive/d/University-Work/02-DSALab/04-infix-postfix/vector.c
+stdio.h
+-
+string.h
+-
+vector.h
+/cygdrive/d/University-Work/02-DSALab/04-infix-postfix/vector.h
+debug_helper.h
+/cygdrive/d/University-Work/02-DSALab/04-infix-postfix/debug_helper.h
+
+/cygdrive/d/University-Work/02-DSALab/04-infix-postfix/vector.h
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+

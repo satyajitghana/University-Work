@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/04_infix_postfix.dir/exp_eval.c.o CMakeFiles/04_infix_postfix.dir/input_helper.c.o CMakeFiles/04_infix_postfix.dir/main.c.o CMakeFiles/04_infix_postfix.dir/stack.c.o CMakeFiles/04_infix_postfix.dir/vector.c.o  -o 04_infix_postfix.exe -Wl,--out-implib,lib04_infix_postfix.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

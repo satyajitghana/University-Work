@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/University-Work/02-DSALab/05-linked-lists/debug_helper.h
+
+/cygdrive/d/University-Work/02-DSALab/05-linked-lists/linked_list.c
+stdio.h
+-
+stdlib.h
+-
+debug_helper.h
+/cygdrive/d/University-Work/02-DSALab/05-linked-lists/debug_helper.h
+linked_list.h
+/cygdrive/d/University-Work/02-DSALab/05-linked-lists/linked_list.h
+
+/cygdrive/d/University-Work/02-DSALab/05-linked-lists/linked_list.h
+stdio.h
+-
+debug_helper.h
+/cygdrive/d/University-Work/02-DSALab/05-linked-lists/debug_helper.h
+

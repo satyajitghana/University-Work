@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="05_linked_lists"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05_linked_lists">
+				<Option output="/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/05_linked_lists.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/University-Work/02-DSALab/05-linked-lists/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 05_linked_lists"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05_linked_lists/fast">
+				<Option output="/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/05_linked_lists.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/University-Work/02-DSALab/05-linked-lists/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 05_linked_lists/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/University-Work/02-DSALab/05-linked-lists/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/d/University-Work/02-DSALab/05-linked-lists/debug_helper.h">
+			<Option target="05_linked_lists"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/University-Work/02-DSALab/05-linked-lists/input_helper.c">
+			<Option target="05_linked_lists"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/University-Work/02-DSALab/05-linked-lists/input_helper.h">
+			<Option target="05_linked_lists"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/University-Work/02-DSALab/05-linked-lists/linked_list.c">
+			<Option target="05_linked_lists"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/University-Work/02-DSALab/05-linked-lists/linked_list.h">
+			<Option target="05_linked_lists"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/University-Work/02-DSALab/05-linked-lists/main.c">
+			<Option target="05_linked_lists"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/University-Work/02-DSALab/05-linked-lists/vector.c">
+			<Option target="05_linked_lists"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/University-Work/02-DSALab/05-linked-lists/vector.h">
+			<Option target="05_linked_lists"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/University-Work/02-DSALab/05-linked-lists/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
