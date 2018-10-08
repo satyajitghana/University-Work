@@ -1,0 +1,9 @@
+2018-10-05 01:14:32 [ThreadId 3] ERROR phoityne - load file fail.[D:/HaskellLearning/Lipovaca/Chapter1/test/Spec.hs]
+2018-10-05 01:14:32 [ThreadId 3] ERROR phoityne - startup load error. D:/HaskellLearning/Lipovaca/Chapter1/test/Spec.hs
+
+2018-10-05 01:14:58 [ThreadId 3] ERROR phoityne - load file fail.[D:/HaskellLearning/Lipovaca/Chapter1/test/Spec.hs]
+2018-10-05 01:14:58 [ThreadId 3] ERROR phoityne - startup load error. D:/HaskellLearning/Lipovaca/Chapter1/test/Spec.hs
+
+2018-10-05 01:15:23 [ThreadId 3] ERROR phoityne - load file fail.[D:/HaskellLearning/Lipovaca/Chapter1/test/Spec.hs]
+2018-10-05 01:15:23 [ThreadId 3] ERROR phoityne - startup load error. D:/HaskellLearning/Lipovaca/Chapter1/test/Spec.hs
+
