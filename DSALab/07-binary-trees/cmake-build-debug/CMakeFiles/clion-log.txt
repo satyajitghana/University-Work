@@ -1,0 +1,4 @@
+C:\Users\shadowleaf\.CLion2018.2\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/z/SEMESTER-03/DSALab/07-binary-trees
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/z/SEMESTER-03/DSALab/07-binary-trees/cmake-build-debug

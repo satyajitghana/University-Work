@@ -1,0 +1,2 @@
+("isprime", "checks if each of the numbers passed to it are prime or not, outputs Bool")
+("nthprime", "computes the nth prime")

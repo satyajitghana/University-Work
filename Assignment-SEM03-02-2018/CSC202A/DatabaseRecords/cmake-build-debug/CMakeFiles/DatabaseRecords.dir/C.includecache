@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/DatabaseRecords/city_data.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+memory.h
+-
+limits.h
+-
+city_data.h
+/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/DatabaseRecords/city_data.h
+input_helper.h
+/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/DatabaseRecords/input_helper.h
+
+/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/DatabaseRecords/city_data.h
+string.h
+-
+stdio.h
+-
+vector.h
+/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/DatabaseRecords/vector.h
+
+/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/DatabaseRecords/input_helper.h
+
+/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/DatabaseRecords/vector.h
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+vector.h
+/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/DatabaseRecords/vector.h
+

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="InsertionSort"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InsertionSort">
+				<Option output="/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/InsertionSort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 InsertionSort"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="InsertionSort/fast">
+				<Option output="/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/InsertionSort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.3.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 InsertionSort/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/binary_tree.c">
+			<Option target="InsertionSort"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/binary_tree.h">
+			<Option target="InsertionSort"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/city_data.c">
+			<Option target="InsertionSort"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/city_data.h">
+			<Option target="InsertionSort"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/database.c">
+			<Option target="InsertionSort"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/database.h">
+			<Option target="InsertionSort"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/input_helper.c">
+			<Option target="InsertionSort"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/input_helper.h">
+			<Option target="InsertionSort"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/main.c">
+			<Option target="InsertionSort"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/vector.c">
+			<Option target="InsertionSort"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/vector.h">
+			<Option target="InsertionSort"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/Assignment-SEM03-02-2018/CSC202A/InsertionSort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
