@@ -15,8 +15,7 @@ public class BasePlusCommissionEmployee extends CommissionEmployee {
     
     private Float basicSalary;
 
-    public BasePlusCommissionEmployee() {
-        
+    public BasePlusCommissionEmployee() {   
     }
     
     public BasePlusCommissionEmployee(Float basicSalary, Float commissionRate, Float sales, String firstName, String lastName, String aadharNumber) {
