@@ -1,9 +1,6 @@
-{-# LANGUAGE CPP #-}
-{-# LANGUAGE NoRebindableSyntax #-}
-{-# OPTIONS_GHC -fno-warn-missing-import-lists #-}
 module Paths_PrimeNumberFunctions (
     version,
-    getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir,
+    getBinDir, getLibDir, getDataDir, getLibexecDir,
     getDataFileName, getSysconfDir
   ) where
 
@@ -12,34 +9,22 @@ import Data.Version (Version(..))
 import System.Environment (getEnv)
 import Prelude
 
-#if defined(VERSION_base)
-
-#if MIN_VERSION_base(4,0,0)
 catchIO :: IO a -> (Exception.IOException -> IO a) -> IO a
-#else
-catchIO :: IO a -> (Exception.Exception -> IO a) -> IO a
-#endif
-
-#else
-catchIO :: IO a -> (Exception.IOException -> IO a) -> IO a
-#endif
 catchIO = Exception.catch
 
 version :: Version
 version = Version [0,1,0,0] []
-bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
+bindir, libdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "C:\\Users\\shadowleaf\\AppData\\Roaming\\cabal\\bin"
-libdir     = "C:\\Users\\shadowleaf\\AppData\\Roaming\\cabal\\x86_64-windows-ghc-8.4.3\\PrimeNumberFunctions-0.1.0.0-JOMfQyDh7fYyqdXst5FCy"
-dynlibdir  = "C:\\Users\\shadowleaf\\AppData\\Roaming\\cabal\\x86_64-windows-ghc-8.4.3"
-datadir    = "C:\\Users\\shadowleaf\\AppData\\Roaming\\cabal\\x86_64-windows-ghc-8.4.3\\PrimeNumberFunctions-0.1.0.0"
-libexecdir = "C:\\Users\\shadowleaf\\AppData\\Roaming\\cabal\\PrimeNumberFunctions-0.1.0.0-JOMfQyDh7fYyqdXst5FCy\\x86_64-windows-ghc-8.4.3\\PrimeNumberFunctions-0.1.0.0"
-sysconfdir = "C:\\Users\\shadowleaf\\AppData\\Roaming\\cabal\\etc"
+bindir     = "/home/shadowleaf/.cabal/bin"
+libdir     = "/home/shadowleaf/.cabal/lib/x86_64-linux-ghc-7.10.3/PrimeNumberFunctions-0.1.0.0-0CUBFa3rLGD0PLyXhVu5gJ"
+datadir    = "/home/shadowleaf/.cabal/share/x86_64-linux-ghc-7.10.3/PrimeNumberFunctions-0.1.0.0"
+libexecdir = "/home/shadowleaf/.cabal/libexec"
+sysconfdir = "/home/shadowleaf/.cabal/etc"
 
-getBinDir, getLibDir, getDynLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
+getBinDir, getLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "PrimeNumberFunctions_bindir") (\_ -> return bindir)
 getLibDir = catchIO (getEnv "PrimeNumberFunctions_libdir") (\_ -> return libdir)
-getDynLibDir = catchIO (getEnv "PrimeNumberFunctions_dynlibdir") (\_ -> return dynlibdir)
 getDataDir = catchIO (getEnv "PrimeNumberFunctions_datadir") (\_ -> return datadir)
 getLibexecDir = catchIO (getEnv "PrimeNumberFunctions_libexecdir") (\_ -> return libexecdir)
 getSysconfDir = catchIO (getEnv "PrimeNumberFunctions_sysconfdir") (\_ -> return sysconfdir)
@@ -47,4 +32,4 @@ getSysconfDir = catchIO (getEnv "PrimeNumberFunctions_sysconfdir") (\_ -> return
 getDataFileName :: FilePath -> IO FilePath
 getDataFileName name = do
   dir <- getDataDir
-  return (dir ++ "\\" ++ name)
+  return (dir ++ "/" ++ name)

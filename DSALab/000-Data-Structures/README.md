@@ -70,3 +70,21 @@ This will print all the data stored in the vector.
 
 ``length``
 Simply the length of the vector
+
+## Notes:
+maybe try something like this, because i repeatedly use some comparator function that i could reduce the code of.
+
+```c
+#define operation(name, op, dtype)                              \
+    static dtype dtype ## _ ## name(dtype val1, dtype val2) {   \
+        return (val1 op val2);                                  \
+    }
+
+#include <stdio.h>
+
+operation(plus, +, int)
+
+int main() {
+    int sum = int_plus(15, 3);
+    printf("%d\n", sum);
+}```
