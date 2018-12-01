@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/shadowleaf/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /opt/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/shadowleaf/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /opt/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists
+CMAKE_SOURCE_DIR = /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/shadowleaf/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,8 +69,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/cygdrive/c/Users/shadowleaf/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/opt/cmake/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug/CMakeFiles /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug/CMakeFiles /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -238,8 +238,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... 06_queues_stacks_using_linked_lists"
 	@echo "... edit_cache"
+	@echo "... 06_queues_stacks_using_linked_lists"
 	@echo "... input_helper.o"
 	@echo "... input_helper.i"
 	@echo "... input_helper.s"

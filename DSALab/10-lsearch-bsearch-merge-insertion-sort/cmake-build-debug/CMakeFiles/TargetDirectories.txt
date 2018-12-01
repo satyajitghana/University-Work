@@ -1,0 +1,3 @@
+/mnt/d/University-Work/02-DSALab/10-lsearch-bsearch-merge-insertion-sort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/University-Work/02-DSALab/10-lsearch-bsearch-merge-insertion-sort/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/University-Work/02-DSALab/10-lsearch-bsearch-merge-insertion-sort/cmake-build-debug/CMakeFiles/10_lsearch_bsearch_merge_insertion_sort.dir

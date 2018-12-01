@@ -80,11 +80,15 @@ maybe try something like this, because i repeatedly use some comparator function
         return (val1 op val2);                                  \
     }
 
+#define operation1(op, val1, val2) (val1 op val2) 
+
 #include <stdio.h>
 
 operation(plus, +, int)
 
 int main() {
     int sum = int_plus(15, 3);
-    printf("%d\n", sum);
+    int sum2 = operation1(+, 15, 3);
+    printf("%d\n%d\n", sum, sum2);
+}
 }```

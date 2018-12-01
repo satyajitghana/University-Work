@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/shadowleaf/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /opt/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/shadowleaf/.CLion2018.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /opt/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists
+CMAKE_SOURCE_DIR = /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/06_queues_stacks_using_linked_lists.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/06_queues_stacks_using_linked_lists.dir/flags.make
 
 CMakeFiles/06_queues_stacks_using_linked_lists.dir/input_helper.c.o: CMakeFiles/06_queues_stacks_using_linked_lists.dir/flags.make
 CMakeFiles/06_queues_stacks_using_linked_lists.dir/input_helper.c.o: ../input_helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/06_queues_stacks_using_linked_lists.dir/input_helper.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/06_queues_stacks_using_linked_lists.dir/input_helper.c.o   -c /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/input_helper.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/06_queues_stacks_using_linked_lists.dir/input_helper.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/06_queues_stacks_using_linked_lists.dir/input_helper.c.o   -c /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/input_helper.c
 
 CMakeFiles/06_queues_stacks_using_linked_lists.dir/input_helper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/06_queues_stacks_using_linked_lists.dir/input_helper.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/input_helper.c > CMakeFiles/06_queues_stacks_using_linked_lists.dir/input_helper.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/input_helper.c > CMakeFiles/06_queues_stacks_using_linked_lists.dir/input_helper.c.i
 
 CMakeFiles/06_queues_stacks_using_linked_lists.dir/input_helper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/06_queues_stacks_using_linked_lists.dir/input_helper.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/input_helper.c -o CMakeFiles/06_queues_stacks_using_linked_lists.dir/input_helper.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/input_helper.c -o CMakeFiles/06_queues_stacks_using_linked_lists.dir/input_helper.c.s
 
 CMakeFiles/06_queues_stacks_using_linked_lists.dir/linked_list.c.o: CMakeFiles/06_queues_stacks_using_linked_lists.dir/flags.make
 CMakeFiles/06_queues_stacks_using_linked_lists.dir/linked_list.c.o: ../linked_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/06_queues_stacks_using_linked_lists.dir/linked_list.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/06_queues_stacks_using_linked_lists.dir/linked_list.c.o   -c /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/linked_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/06_queues_stacks_using_linked_lists.dir/linked_list.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/06_queues_stacks_using_linked_lists.dir/linked_list.c.o   -c /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/linked_list.c
 
 CMakeFiles/06_queues_stacks_using_linked_lists.dir/linked_list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/06_queues_stacks_using_linked_lists.dir/linked_list.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/linked_list.c > CMakeFiles/06_queues_stacks_using_linked_lists.dir/linked_list.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/linked_list.c > CMakeFiles/06_queues_stacks_using_linked_lists.dir/linked_list.c.i
 
 CMakeFiles/06_queues_stacks_using_linked_lists.dir/linked_list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/06_queues_stacks_using_linked_lists.dir/linked_list.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/linked_list.c -o CMakeFiles/06_queues_stacks_using_linked_lists.dir/linked_list.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/linked_list.c -o CMakeFiles/06_queues_stacks_using_linked_lists.dir/linked_list.c.s
 
 CMakeFiles/06_queues_stacks_using_linked_lists.dir/main.c.o: CMakeFiles/06_queues_stacks_using_linked_lists.dir/flags.make
 CMakeFiles/06_queues_stacks_using_linked_lists.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/06_queues_stacks_using_linked_lists.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/06_queues_stacks_using_linked_lists.dir/main.c.o   -c /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/06_queues_stacks_using_linked_lists.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/06_queues_stacks_using_linked_lists.dir/main.c.o   -c /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/main.c
 
 CMakeFiles/06_queues_stacks_using_linked_lists.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/06_queues_stacks_using_linked_lists.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/main.c > CMakeFiles/06_queues_stacks_using_linked_lists.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/main.c > CMakeFiles/06_queues_stacks_using_linked_lists.dir/main.c.i
 
 CMakeFiles/06_queues_stacks_using_linked_lists.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/06_queues_stacks_using_linked_lists.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/main.c -o CMakeFiles/06_queues_stacks_using_linked_lists.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/main.c -o CMakeFiles/06_queues_stacks_using_linked_lists.dir/main.c.s
 
 CMakeFiles/06_queues_stacks_using_linked_lists.dir/vector.c.o: CMakeFiles/06_queues_stacks_using_linked_lists.dir/flags.make
 CMakeFiles/06_queues_stacks_using_linked_lists.dir/vector.c.o: ../vector.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/06_queues_stacks_using_linked_lists.dir/vector.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/06_queues_stacks_using_linked_lists.dir/vector.c.o   -c /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/vector.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/06_queues_stacks_using_linked_lists.dir/vector.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/06_queues_stacks_using_linked_lists.dir/vector.c.o   -c /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/vector.c
 
 CMakeFiles/06_queues_stacks_using_linked_lists.dir/vector.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/06_queues_stacks_using_linked_lists.dir/vector.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/vector.c > CMakeFiles/06_queues_stacks_using_linked_lists.dir/vector.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/vector.c > CMakeFiles/06_queues_stacks_using_linked_lists.dir/vector.c.i
 
 CMakeFiles/06_queues_stacks_using_linked_lists.dir/vector.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/06_queues_stacks_using_linked_lists.dir/vector.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/vector.c -o CMakeFiles/06_queues_stacks_using_linked_lists.dir/vector.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/vector.c -o CMakeFiles/06_queues_stacks_using_linked_lists.dir/vector.c.s
 
 # Object files for target 06_queues_stacks_using_linked_lists
 06_queues_stacks_using_linked_lists_OBJECTS = \
@@ -119,17 +119,17 @@ CMakeFiles/06_queues_stacks_using_linked_lists.dir/vector.c.s: cmake_force
 # External object files for target 06_queues_stacks_using_linked_lists
 06_queues_stacks_using_linked_lists_EXTERNAL_OBJECTS =
 
-06_queues_stacks_using_linked_lists.exe: CMakeFiles/06_queues_stacks_using_linked_lists.dir/input_helper.c.o
-06_queues_stacks_using_linked_lists.exe: CMakeFiles/06_queues_stacks_using_linked_lists.dir/linked_list.c.o
-06_queues_stacks_using_linked_lists.exe: CMakeFiles/06_queues_stacks_using_linked_lists.dir/main.c.o
-06_queues_stacks_using_linked_lists.exe: CMakeFiles/06_queues_stacks_using_linked_lists.dir/vector.c.o
-06_queues_stacks_using_linked_lists.exe: CMakeFiles/06_queues_stacks_using_linked_lists.dir/build.make
-06_queues_stacks_using_linked_lists.exe: CMakeFiles/06_queues_stacks_using_linked_lists.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable 06_queues_stacks_using_linked_lists.exe"
+06_queues_stacks_using_linked_lists: CMakeFiles/06_queues_stacks_using_linked_lists.dir/input_helper.c.o
+06_queues_stacks_using_linked_lists: CMakeFiles/06_queues_stacks_using_linked_lists.dir/linked_list.c.o
+06_queues_stacks_using_linked_lists: CMakeFiles/06_queues_stacks_using_linked_lists.dir/main.c.o
+06_queues_stacks_using_linked_lists: CMakeFiles/06_queues_stacks_using_linked_lists.dir/vector.c.o
+06_queues_stacks_using_linked_lists: CMakeFiles/06_queues_stacks_using_linked_lists.dir/build.make
+06_queues_stacks_using_linked_lists: CMakeFiles/06_queues_stacks_using_linked_lists.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable 06_queues_stacks_using_linked_lists"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/06_queues_stacks_using_linked_lists.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/06_queues_stacks_using_linked_lists.dir/build: 06_queues_stacks_using_linked_lists.exe
+CMakeFiles/06_queues_stacks_using_linked_lists.dir/build: 06_queues_stacks_using_linked_lists
 
 .PHONY : CMakeFiles/06_queues_stacks_using_linked_lists.dir/build
 
@@ -138,6 +138,6 @@ CMakeFiles/06_queues_stacks_using_linked_lists.dir/clean:
 .PHONY : CMakeFiles/06_queues_stacks_using_linked_lists.dir/clean
 
 CMakeFiles/06_queues_stacks_using_linked_lists.dir/depend:
-	cd /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug /cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug/CMakeFiles/06_queues_stacks_using_linked_lists.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug /mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/cmake-build-debug/CMakeFiles/06_queues_stacks_using_linked_lists.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/06_queues_stacks_using_linked_lists.dir/depend
 

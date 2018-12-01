@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/cygdrive/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/. 
+C_INCLUDES = -I/mnt/d/University-Work/02-DSALab/06-queues-stacks-using-linked-lists/. 
 

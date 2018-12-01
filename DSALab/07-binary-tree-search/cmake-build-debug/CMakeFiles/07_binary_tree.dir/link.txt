@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/07_binary_tree.dir/main.c.o CMakeFiles/07_binary_tree.dir/binary_tree.c.o CMakeFiles/07_binary_tree.dir/input_helper.c.o CMakeFiles/07_binary_tree.dir/vector.c.o  -o 07_binary_tree 

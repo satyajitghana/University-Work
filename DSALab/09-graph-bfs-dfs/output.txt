@@ -1,0 +1,46 @@
+BFS and DFS on Graph
+1.	Enter Adjacency Matrix
+2.	DFS of the Graph
+3.	BFS of the Graph
+4.	Exit
+Your Choice : 1
+
+Enter the number of vertices : 8
+
+Enter the adjacency matrix of the graph :
+
+0 1 1 1 1 0 0 0
+1 0 0 0 0 1 0 0
+1 0 0 0 0 1 0 0
+1 0 0 0 0 0 1 0
+1 0 0 0 0 0 1 0
+0 1 1 0 0 0 0 1
+0 0 0 1 1 0 0 1
+0 0 0 0 0 1 1 0
+
+BFS and DFS on Graph
+1.	Enter Adjacency Matrix
+2.	DFS of the Graph
+3.	BFS of the Graph
+4.	Exit
+Your Choice : 2
+
+ 0 1 5 2 7 6 3 4
+BFS and DFS on Graph
+1.	Enter Adjacency Matrix
+2.	DFS of the Graph
+3.	BFS of the Graph
+4.	Exit
+Your Choice : 3
+
+The nodes which are reachable are : 
+ 0 1 2 3 4 5
+
+BFS and DFS on Graph
+1.	Enter Adjacency Matrix
+2.	DFS of the Graph
+3.	BFS of the Graph
+4.	Exit
+Your Choice : 4
+
+Process finished with exit code 0

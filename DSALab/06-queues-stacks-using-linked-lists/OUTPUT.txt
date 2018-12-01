@@ -1,0 +1,75 @@
+
+-----------STACK AND QUEUES USING LINKED LISTS------
+1.	Stacks
+2.	Queues
+
+Your Choice : 1
+1
+
+---------- Stacks using Linked Lists ----------------------
+1.	Push
+2.	Pop
+3.	Display
+4.	Exit
+
+Your Choice : 1
+10
+1
+10
+
+Enter your Data : 
+---------- Stacks using Linked Lists ----------------------
+1.	Push
+2.	Pop
+3.	Display
+4.	Exit
+
+Your Choice : 1
+1
+
+Enter your Data : 123
+123
+
+---------- Stacks using Linked Lists ----------------------
+1.	Push
+2.	Pop
+3.	Display
+4.	Exit
+
+Your Choice : 3
+3
+
+DEBUG--*(char*)(head -> data) : 10*
+
+DEBUG--*(char*)(head -> data) : 123*
+
+---------- Stacks using Linked Lists ----------------------
+1.	Push
+2.	Pop
+3.	Display
+4.	Exit
+
+Your Choice : 2
+2
+
+Deleted : 
+DEBUG--*(char*)(link -> data) : 123*
+
+---------- Stacks using Linked Lists ----------------------
+1.	Push
+2.	Pop
+3.	Display
+4.	Exit
+
+Your Choice : 3
+3
+
+DEBUG--*(char*)(head -> data) : 10*
+
+---------- Stacks using Linked Lists ----------------------
+1.	Push
+2.	Pop
+3.	Display
+4.	Exit
+
+Your Choice : 

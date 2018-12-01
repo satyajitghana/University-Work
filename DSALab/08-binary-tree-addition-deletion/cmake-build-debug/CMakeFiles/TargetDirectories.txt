@@ -1,0 +1,3 @@
+/mnt/d/University-Work/02-DSALab/08-binary-tree-addition-deletion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/University-Work/02-DSALab/08-binary-tree-addition-deletion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/University-Work/02-DSALab/08-binary-tree-addition-deletion/cmake-build-debug/CMakeFiles/07_binary_tree.dir
